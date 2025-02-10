@@ -1,0 +1,7 @@
+version: 2 
+ 
+sources:
+  - name: stripe
+    database: STEVE_D_RAW_DATA
+    tables:
+      - name: payment
