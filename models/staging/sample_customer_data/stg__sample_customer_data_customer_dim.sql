@@ -31,3 +31,5 @@ renamed as (
 
 select * from renamed
 
+
+{{ add_18_and_31() }}
