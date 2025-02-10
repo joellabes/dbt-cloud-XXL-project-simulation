@@ -26,8 +26,7 @@ def attach_macros_to_models(models_dir, macros_dir):
             macro_file = macro_files[macro_index]
             
             # Read the macro name from the macro file
-            with open(os.path.join(macros_dir, macro_file), 'r') as mf:
-                macro_name = mf.readline().strip()
+            macro_name = os.path.splitext(os.path.basename(macro_file))[0]
             
             # Append the macro to the model file
             with open(os.path.join(models_dir, model_file), 'a') as mf:
