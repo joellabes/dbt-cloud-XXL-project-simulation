@@ -7,7 +7,7 @@ version: '1.3.1'
 config-version: 2
 
 # This setting configures which "profile" dbt uses for this project.
-profile: 'snowflake_sales_sandbox_demo'
+profile: 'joel_ska'
 
 # These configurations specify where dbt should look for different types of files.
 # The `source-paths` config, for example, states that models in this project can be
