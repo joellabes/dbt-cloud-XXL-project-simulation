@@ -19,3 +19,5 @@ renamed as (
 
 select * from renamed
 
+
+{{ add_19_and_9() }}
