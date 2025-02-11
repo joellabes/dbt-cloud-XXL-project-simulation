@@ -1,4 +1,4 @@
 
 {% macro add_13_and_15() %}
-  {{ add_two_numbers(13, 15) }}
+  {{ xxl_large_project_simulation.add_two_numbers(13, 15) }}
 {% endmacro %}

@@ -4,8 +4,19 @@ workspace:
 
   defaults:
     preprocessor: jinja
+    dialect: snowflake
 
   includes:
     - path: sdf_models 
     - path: seeds
       type: resource
+    - path: sdf_macros
+      type: macro
+
+  integrations:
+    - provider: snowflake
+      type: database
+      sources:
+        - pattern: STEVE_D_RAW_DATA.*.*
+      targets:
+        - pattern: ANALYTICS.joellabes_sdf_benchmarking.*
