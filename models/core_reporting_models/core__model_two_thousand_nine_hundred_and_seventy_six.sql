@@ -21,4 +21,4 @@ select * exclude (model_a_unqiue_key, model_b_unqiue_key, model_c_unqiue_key),
          row_number() over (partition by 1
                             order by 1) as unqiue_key
 from joined_models
-{{ regex_slugify_14() }}
+{{ xxl_large_project_simulation.regex_slugify_14() }}

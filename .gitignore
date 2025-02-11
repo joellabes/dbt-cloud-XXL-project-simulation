@@ -4,3 +4,5 @@ dbt_packages/
 logs/
 python_code/
 .DS_Store
+sdftarget/
+fs_internal_packages/
